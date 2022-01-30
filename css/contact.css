@@ -1,0 +1,121 @@
+body{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Estonia', cursive;
+}
+.container{
+    width: 100%;    
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 1%;
+}
+.logo{
+    width: 260px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-top: 5%; */
+    /* position: fixed; */
+}
+nav{
+    flex: 1;
+    padding-left: 80px;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(63, 9, 9);
+}
+h1{
+    text-align: center;
+}
+.content{
+    margin: 5%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* https://www.w3schools.com/howto/howto_css_table_center.asp for help w/ formating my table */
+.container2{
+    padding: 30px;
+    margin: 20%;
+    width: 50%;
+    height: 80vh;
+    /*background: #fdc8e9;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 5px;
+    background-color: #fce5e5;
+    box-sizing: border-box;
+}
+form{
+    /* background: rgb(253, 211, 240); */
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vw 4vw; */
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px; 
+}
+h4{
+    text-align: center;
+}
+h4 ul{
+    text-align: center;
+}
+input[type=text], select, textarea {
+    /* width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; */
+    border: 0;
+    border-radius: 4px;
+    margin: 10px 0 16px;
+    padding: 20px;
+    outline: none;
+    background: rgb(238, 210, 200);
+}
+input[type=submit] {
+    background-color: #e4bff5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items:stretch;
+}
+input[type=submit]:hover {
+    background-color: #a06ff0;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    /* font-size: 2rem; */
+}
+footer{
+    text-align: center;
+}

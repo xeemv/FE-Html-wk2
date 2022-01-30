@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wk 1 Front-End Assignment</title>
+
+</head>
+<body>
+    <div id="top"></div>
+    <!-- <link rel="stylesheet" type="text/css" href="../css/index2.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+    <div class="container">
+        <div class="navbar">
+            <img src="../images/logo2.PNG" class="logo">
+            <nav>
+                <ul>                
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="../html/project.html">Project Photos</a></li>        
+                  <li><a href="./index3.html">Contact Me</a></li>         
+                </ul>   
+            </nav>
+        </div>   
+    </div>
+<h1>Project Photos</h1>
+    <div class="content">
+        <h4>Please see below photos of my three projects from the home page. I have also included videos of the projects being demo.</h4>
+
+        <ul>
+            <li>Cotton Kanban Board</li>
+            <ul>
+                <li>Image: 
+                <br><img class="kanban" src="../images/cotton kanban.PNG"></li>
+                <!-- I started including this script from w3 school but realized my video was playing w/o it. I'm going to leave this here for reference anyways. -->
+                <!-- https://www.w3schools.com/tags/av_met_play.asp -->
+                <!-- <button onclick="playVid()" type="button">Play Video</button>
+                <button onclick="pauseVid()" type="button">Pause Video</button><br>  -->
+                <!-- <source src="mov_bbb.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg"> -->
+                <!-- <li>Video: Please select the little picture-in-picture icon on the right side of this video and adjust the size to your preference. 
+                <br><video src="../videos/video2016358029_AdobeCreativeCloudExpress.mp4" width="600px" height="400px"></video>
+                <source src="../videos/video2016358029_AdobeCreativeCloudExpress.mp4" type="video/mp4"> -->
+                </li>
+            </ul>
+
+            <br>
+
+            <li>Tip Calculator</li>
+            <ul>
+                <li>Image: 
+                <br><img class="tip-cal" src="../images/tip-calculator.PNG" width="500px" height="350px"></li>
+                <br>
+                <br><li>Video: Please select the play and pause button to view the video of this project.
+                <br>
+                <br>
+                <button onclick="playVid()" type="button">Play Video</button>
+                <button onclick="pauseVid()" type="button">Pause Video</button>  
+                <br>
+                <br>
+                <video id="myVideo" width="600px" height="600px">
+                <source src="../videos/Tip_Calculator_021-12-22_08-56-49_AdobeCreativeCloudExpress.mp4" type="video/mp4"></source>
+                <source src="vid.ogg" type="video/ogg">
+                </video> 
+                <!-- <video src="../videos/Tip_Calculator_021-12-22_08-56-49_AdobeCreativeCloudExpress.mp4" width="600px" height="400px"></video> -->
+            </li>
+            </ul>
+
+            <br>
+            <li>Talking Robot</li>
+            <ul>
+                <li>Image: 
+                <br><img class="talking-robot" src="../images/talking-robot.PNG" width="500px" height="350px"></li>
+                <br>
+                <!-- <li>Video: Please select the little picture-in-picture icon on the right side of this video and adjust the size to your preference. 
+                <br> --> 
+                <!-- <button onclick="playVid()" type="button">Play Video</button>
+                <button onclick="pauseVid()" type="button">Pause Video</button>  
+                <br>
+                <video id="myVide2" width="600px" height="600px">
+                <source src="../videos/talking robot.AdobeCreativeCloudExpress.mp4" type="video/mp4"></source>
+                <source src="vid.ogg" type="video/ogg">
+                </video> -->
+                <!-- <video src="../videos/talking robot.AdobeCreativeCloudExpress.mp4" width="600px" height="400px"></video> -->
+
+            <!-- </ul> -->
+        </ul>
+    </div>
+    <footer>Project Photo Page</footer>
+</body>
+
+<!-- https://www.w3schools.com/tags/av_met_play.asp -->
+<script> 
+    var vid = document.getElementById("myVideo"); 
+    
+    function playVid() { 
+      vid.play(); 
+    } 
+    
+    function pauseVid() { 
+      vid.pause(); 
+    } 
+    </script> 
+
+<!-- I started including this script from w3 school but realized my video was playing w/o it. I'm going to leave this here for reference anyways. -->
+<p align="center">(<a href="#top">back to top</a>)</p>
+</html>

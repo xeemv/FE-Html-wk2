@@ -47,9 +47,14 @@ button {
     border-radius: 5px;
     /* padding: 5px; */
     margin: 0 20px 0 100px;
+    cursor: pointer;
+}
+.tip-cal {
+    width: 800px; 
+    height: 600px;
 }
 video{
-    width: 600px; 
+    width: 800px; 
     height: 600px;
     cursor: pointer;
 }
@@ -66,16 +71,16 @@ ul {
     display: table; 
     margin: 0 auto;
     /* text-align: left; */
+    /* https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list/19443239 -- first one down, by: Rafael Herscovici */
 }
 .kanban{
-    width: 500px;
+    width: 800px; 
+    height: 600px;
 }
-/* .tip-cal{
-    
+.talking-robot{
+    width: 800px; 
+    height: 600px;
 }
-.talk-robot{
-    width: 20px;
-} */
 footer{
     text-align: center;
 }

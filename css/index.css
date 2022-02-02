@@ -54,8 +54,12 @@ h3 ul li {
 }
 h3 {
     font-family: 'Estonia', cursive;
+    text-align: center;
 }
 footer{
     text-align: center;
     font-family: 'Estonia', cursive;
+}
+p{
+    text-align: center;
 }

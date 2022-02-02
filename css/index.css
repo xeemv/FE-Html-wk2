@@ -38,6 +38,7 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 0px 20px;
+    font-family: 'Estonia', cursive;
 }
 .nav ul li a{
     text-decoration: none;
@@ -45,21 +46,26 @@ nav ul li{
 }
 h1{
     text-align: center;
+    font-family: 'Estonia', cursive;
 }
 .content{
   margin: 5%;
 }
-h3 ul li {
+h2{
     font-family: 'Estonia', cursive;
 }
 h3 {
     font-family: 'Estonia', cursive;
     text-align: center;
 }
-footer{
-    text-align: center;
+p2{ 
     font-family: 'Estonia', cursive;
 }
 p{
     text-align: center;
+    font-family: 'Estonia', cursive;
+}
+footer{
+    text-align: center;
+    font-family: 'Estonia', cursive;
 }
